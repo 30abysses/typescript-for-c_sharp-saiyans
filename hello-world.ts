@@ -1,8 +1,7 @@
-// A TypeScript `Hello, World!` example.
+﻿// A TypeScript `Hello, World!` example.
 class C {
-    static main(): number {
+    static main() {
         console.log("Hello, World!");
-        return 0;
     }
 }
 

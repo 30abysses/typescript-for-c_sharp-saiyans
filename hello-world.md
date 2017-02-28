@@ -16,7 +16,7 @@ of this tutorial, we will go with the simplest option: Node.js.
 
 [2]: https://www.typescriptlang.org/index.html#download-links
 
-1. Get Node.js from [https://nodejs.org/][3]]; LTS should just work.
+1. Get Node.js from [https://nodejs.org/][3]; LTS should just work.
 2. Install TypeScript compiler: `npm install -g typescript`
 
 [3]: https://nodejs.org/
@@ -44,6 +44,7 @@ how to compile TypeScript (`hello-world.ts`) to JavsScript
 (`hello-world.js`) and execute it:
 
 1. `tsc hello-world.ts`
+   * This compiles `hello-world.ts` to `hello-world.js`.
 2. `node hello-world.js`
 
 [6]: hello-world.ts
